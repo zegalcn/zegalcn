@@ -1,4 +1,7 @@
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
 markdown: kramdown
 theme: minima
-include:
-  index.md
